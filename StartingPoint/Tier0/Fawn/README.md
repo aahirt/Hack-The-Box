@@ -20,16 +20,9 @@ nmap 10.10.xx.xx -sCV
 Found FTP open on port 21...
 
 ### 🚪 Step 2: Access FTP
-bash
-Copy
-Edit
 ftp 10.10.xx.xx
 ### Login anonymously
-📁 Step 3: Download File
-bash
-Copy
-Edit
-get important_file.txt
+get flag.txt
 ### Submit Flag (Do NOT paste it here)
 Successfully submitted the flag!
 
