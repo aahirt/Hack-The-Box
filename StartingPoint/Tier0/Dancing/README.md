@@ -12,20 +12,18 @@ smbclient
 Kali Linux
 
 ## 🔎 Nmap Enumeration
-
-```bash
 nmap -sCV 10.10.xx.xx
 Port 445: SMB open
 Port 135: RPC
 
-🛠️ SMB Enumeration
-smbclient -L \\\\10.10.xx.xx\\
+🛠️ Server Message Block(SMB) Enumeration
+smbclient -L 10.10.xx.xx
 Anonymous login enabled
 Found share: WorkShares
 
-💥 Exploit (if any)
+💥 Exploit
 Used credentials found to log in or access flag path.
-smbclient \\\\10.10.xx.xx\\WorkShares -N
+smbclient //10.10.xx.xx/WorkShares -N
 Download files:
 ls
 cd Amy.J
