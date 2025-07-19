@@ -26,12 +26,12 @@
 * smbclient //10.10.xx.xx/WorkShares -N
 - Download files:
 
-1.	ls
-2.	cd Amy.J
-3.	ls
-4.	cd ..
-5.	cd James.P
-6.	ls
-7.	get flag.txt
+- ls
+- cd Amy.J
+- ls
+- cd ..
+- cd James.P
+- ls
+- get flag.txt
 
 
