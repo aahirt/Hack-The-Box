@@ -20,10 +20,10 @@
 - How legacy protocols like Telnet are vulnerable to unauthorized access
 
 ## Commands Used
--nmap 10.129.40.145 -Pn
--Connect to the target via Telnet: telnet 10.129.40.145
--Tried possible login credentials without password entered(admin, root, user, guest)
--sussessful login with root as username
--ls
--cat flag.txt
--obtained the flag
+- nmap 10.129.40.145 -Pn
+- Connect to the target via Telnet: telnet 10.129.40.145
+- Tried possible login credentials without password entered(admin, root, user, guest)
+- sussessful login with root as username
+- ls
+- cat flag.txt
+- obtained the flag
