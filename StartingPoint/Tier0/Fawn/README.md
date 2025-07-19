@@ -8,22 +8,22 @@
 - Skills: FTP enumeration, anonymous login
 
 ## 🛠️ Tools Used
-Nmap
-FTP
-Kali Linux
+- Nmap
+- FTP
+- Kali Linux
 
 ## 🧭 Walkthrough
 
 ### 🔎 Step 1: Enumeration
-nmap 10.10.xx.xx -sCV
+- nmap 10.10.xx.xx -sCV
 
-Found FTP open on port 21...
+- Found FTP open on port 21...
 
 ### 🚪 Step 2: Access FTP
-ftp 10.10.xx.xx
+- ftp 10.10.xx.xx
 ### Login anonymously
-get flag.txt
-### Submit Flag (Do NOT paste it here)
-Successfully submitted the flag!
+- get flag.txt
+### Submit Flag 
+- Successfully submitted the flag!
 
 
