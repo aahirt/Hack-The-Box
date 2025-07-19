@@ -23,7 +23,7 @@
 
 ## 💥 Exploit
 - Used credentials found to log in or access flag path.
-smbclient //10.10.xx.xx/WorkShares -N
+* smbclient //10.10.xx.xx/WorkShares -N
 - Download files:
 
 1.	ls
